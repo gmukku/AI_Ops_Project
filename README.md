@@ -8,3 +8,8 @@ The project consists of the following files:
 - **`report_rul.pdf`**: A detailed report summarizing the project methodology, results, insights, and future work.
 - **`README.md`**: This file, providing an overview of the project.
 
+
+The project flow:
+- Model Building, Experimentation using Kubeflow
+- Model Deployment using Kubernetes
+- Model Moitoring using Evidently
