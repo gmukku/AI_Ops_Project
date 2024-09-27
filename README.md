@@ -12,4 +12,4 @@ The project consists of the following files:
 The project flow:
 - Model Building, Experimentation using Kubeflow
 - Model Deployment using Kubernetes
-- Model Moitoring using Evidently
+- Model Monitoring using Evidently
