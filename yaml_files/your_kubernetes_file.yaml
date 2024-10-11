@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-prediction-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-prediction-app
+  template:
+    metadata:
+      labels:
+        app: flask-prediction-app
+    spec:
+      containers:
+      - name: flask-prediction-app
+        image: pmuller2019/flask-prediction-app:latest
+        ports:
+        - containerPort: 5000
