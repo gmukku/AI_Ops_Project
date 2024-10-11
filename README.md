@@ -15,3 +15,5 @@ The project flow:
 - Model Monitoring using Evidently
 
 VIDEO LINK: https://www.youtube.com/watch?v=PvnBg5ekQMI&feature=youtu.be
+
+** some data files were too large to upload to Github, if they are needed for grading reasons please reach out and we can email them
