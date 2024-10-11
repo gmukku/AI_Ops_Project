@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+</head>
+<body>
+    <h1>Prediction Results</h1>
+    <h2>LSTM Predictions for MAE</h2>
+    <ul>
+        {% for prediction in lstm_predictions_mae %}
+            <li>{{ prediction }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>GRU Predictions for MAE</h2>
+    <ul>
+        {% for prediction in gru_predictions_mae %}
+            <li>{{ prediction }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>LSTM Predictions for RMSE</h2>
+    <ul>
+        {% for prediction in lstm_predictions_rmse %}
+            <li>{{ prediction }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>GRU Predictions for RMSE</h2>
+    <ul>
+        {% for prediction in gru_predictions_rmse %}
+            <li>{{ prediction }}</li>
+        {% endfor %}
+    </ul>
+    
+    <a href="/">Go back to home</a>
+    <a href="/report">View Evidently Report</a>
+</body>
+</html>
