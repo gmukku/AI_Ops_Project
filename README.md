@@ -13,3 +13,5 @@ The project flow:
 - Model Building, Experimentation using Kubeflow
 - Model Deployment using Kubernetes
 - Model Monitoring using Evidently
+
+VIDEO LINK: https://www.youtube.com/watch?v=PvnBg5ekQMI&feature=youtu.be
