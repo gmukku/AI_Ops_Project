@@ -10,11 +10,11 @@ The project consists of the following files:
 
 
 The project flow:
-- Model Building, Experimentation using Kubeflow
+- Model Building, Experimentation using Python and Kubeflow
 - Model Deployment using Kubernetes
 - Model Monitoring using Evidently
 
 VIDEO LINK: https://www.youtube.com/watch?v=PvnBg5ekQMI&feature=youtu.be
 
-** Please ignore the R2 scores of LSTM and GRU, since we've done a minor mistake of subtracting by -1, which is not necessary.
-** some data files were too large to upload to Github, if they are needed for grading reasons please reach out and we can email them
+**Please ignore the R2 scores of LSTM and GRU, since we've done a minor mistake of subtracting by -1, which is not necessary.
+**some data files were too large to upload to Github, if they are needed for grading reasons please reach out and we can email them
